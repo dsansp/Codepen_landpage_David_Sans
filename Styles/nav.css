@@ -43,8 +43,8 @@
     transition: 0.5s;
 
 }
-.upper-wrapper > .center-column >.links-wrapper > .nav-link a:hover{
-background-color: black;
+.upper-wrapper > .center-column >.links-wrapper > .nav-link:hover{
+background-color: grey;
 
 }
 .upper-wrapper > .center-column >.links-wrapper > .spark-link{
