@@ -1,0 +1,82 @@
+/* Common nav style */
+.upper-wrapper{
+    height: 70px;
+    background-color: #14141d;
+    color: #cbcbcb;
+/*flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.upper-wrapper > .left-container >.logo-codepen img{
+    width:216px;
+    height: 100%;
+}
+
+.upper-wrapper > .center-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 500px;
+}
+
+.upper-wrapper > .center-column > .explore-txt{
+    display: flex;
+    justify-content:left;
+}
+ .links-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.links-wrapper > .nav-link{
+    width: 70px;
+    text-align: left;
+}
+
+.upper-wrapper> .rigth-container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.upper-wrapper> .rigth-container> .button-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 50px;
+    margin: 65px 10px 0px 10px;
+    align-items: flex-start;
+    width: 100%;
+    grid-gap: 70px;
+
+}
+.upper-wrapper> .rigth-container> .button-wrapper > .create-btn{
+    background-color: gray;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+    color: whitesmoke;
+}
+.upper-wrapper> .rigth-container> .button-wrapper > .create-btn i{
+color: green;
+}
+.upper-wrapper> .rigth-container> .button-wrapper > .search-btn i{
+    font-size: 2em;
+    color: gray;
+}
+.upper-wrapper> .rigth-container> .button-wrapper > .loging-btn{
+    background-color: gray;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s; 
+}
+.upper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn{
+    background-color: gray;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s; 
+}
