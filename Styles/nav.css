@@ -1,5 +1,5 @@
 /* Common nav style */
-.upper-wrapper{
+.topper-wrapper{
     height: 70px;
     width: 100%;
     background-color: #14141d;
@@ -10,12 +10,12 @@
     align-items: center;
     padding: 10px 30px;
 }
-.upper-wrapper > .left-container >.logo-codepen img{
+.topper-wrapper > .left-container >.logo-codepen img{
     width:216px;
     height: 100%;
 }
 
-.upper-wrapper > .center-column{
+.topper-wrapper > .center-column{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
@@ -25,7 +25,7 @@
     margin-right: 300px;
 }
 
-.upper-wrapper > .center-column > .explore-txt{
+.topper-wrapper > .center-column > .explore-txt{
     display: flex;
     justify-content:space-between;
     margin-left: 13px;
@@ -33,7 +33,7 @@
     margin-bottom: -24px;   
     color: #dfce35;
 }
-.upper-wrapper > .center-column > .links-wrapper{
+.topper-wrapper > .center-column > .links-wrapper{
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -42,24 +42,24 @@
     margin-right: 330px;
 
 }
-.upper-wrapper > .center-column >.links-wrapper > .nav-link{
+.topper-wrapper > .center-column >.links-wrapper > .nav-link{
     width: 70px;
     text-align: center;
     margin-inline: 10px;
     
 }
-.upper-wrapper > .center-column >.links-wrapper > .nav-link a{
+.topper-wrapper > .center-column >.links-wrapper > .nav-link a{
     font-family: "Archivo Black", sans-sherif;
     color: #fafafa;
     text-decoration: none;
     transition: 0.5s;
 
 }
-.upper-wrapper > .center-column >.links-wrapper > .nav-link a:hover{
+.topper-wrapper > .center-column >.links-wrapper > .nav-link a:hover{
 color: rgb(59, 58, 58);
 
 }
-.upper-wrapper > .center-column >.links-wrapper > .spark-link{
+.topper-wrapper > .center-column >.links-wrapper > .spark-link{
     width: 75px;
     text-align: center;
     margin-left: 75px;
@@ -70,7 +70,7 @@ color: rgb(59, 58, 58);
     
 }
 
-.upper-wrapper> .rigth-container{
+.topper-wrapper> .rigth-container{
     width: 900px;
     display: flex;
     justify-content:space-around;
@@ -78,7 +78,7 @@ color: rgb(59, 58, 58);
     
 }
 
-.upper-wrapper> .rigth-container> .button-wrapper{
+.topper-wrapper> .rigth-container> .button-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 50px;
@@ -91,7 +91,7 @@ color: rgb(59, 58, 58);
 
 }
 
-.upper-wrapper> .rigth-container> .button-wrapper > .create-btn{
+.topper-wrapper> .rigth-container> .button-wrapper > .create-btn{
     display: flex;
     justify-content: space-around;
     padding-left: 43px;
@@ -106,28 +106,28 @@ color: rgb(59, 58, 58);
    
     
 }
-.upper-wrapper> .rigth-container> .button-wrapper > .create-btn:hover{
+.topper-wrapper> .rigth-container> .button-wrapper > .create-btn:hover{
 color: rgb(59, 58, 58);
 } 
-.upper-wrapper> .rigth-container> .button-wrapper > .create-btn >.check{
+.topper-wrapper> .rigth-container> .button-wrapper > .create-btn >.check{
     /* color: rgb(9, 209, 9); */
     margin:auto;
 
 }
-.upper-wrapper> .rigth-container> .button-wrapper > .create-btn >.check p{
+.topper-wrapper> .rigth-container> .button-wrapper > .create-btn >.check p{
     /* color: #fafafa; */
-    color: rgb(9, 209, 9);
+    color: #4bce79;
     margin-left:10px ;
 
     }
-.upper-wrapper> .rigth-container> .button-wrapper > .search-btn i{
+.topper-wrapper> .rigth-container> .button-wrapper > .search-btn i{
     font-size: 2em;
     color: gray;
     text-align: center;
     margin-bottom: 20px;
     margin-left: 12px;
 }
-.upper-wrapper> .rigth-container> .button-wrapper > .loging-btn{
+.topper-wrapper> .rigth-container> .button-wrapper > .loging-btn{
     display: flex;
     justify-content: space-between;
     padding-left: 43px;
@@ -143,16 +143,16 @@ color: rgb(59, 58, 58);
     color: #fafafa;
 }
 
-.upper-wrapper> .rigth-container> .button-wrapper > .loging-btn a{
+.topper-wrapper> .rigth-container> .button-wrapper > .loging-btn a{
     margin-top: 16px;  
     color: #fafafa;
     text-decoration: none;
     transition: 0.5s;
 }
-.upper-wrapper> .rigth-container> .button-wrapper > .loging-btn a:hover{
+.topper-wrapper> .rigth-container> .button-wrapper > .loging-btn a:hover{
     color: rgb(59, 58, 58);
     }
-.upper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn{
+.topper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn{
     display: flex;
     justify-content: space-between;
     padding-left: 77px;
@@ -169,7 +169,7 @@ color: rgb(59, 58, 58);
 }
 
 
-.upper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn a{
+.topper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn a{
     margin-top: 16px; 
     margin-left:-20px;
     color: #fafafa;
@@ -178,12 +178,12 @@ color: rgb(59, 58, 58);
 
 }
 
-.upper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn:hover{
+.topper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn:hover{
   
     background-color: rgb(49, 173, 49);
 }
 
 
-.upper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn a:hover{
+.topper-wrapper> .rigth-container> .button-wrapper > .sign-up-btn a:hover{
     color: rgb(59, 58, 58);
 } 
