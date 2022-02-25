@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#2a2c33 ;
-    box-shadow: inset;
+    background-color:#2D3037; ;
+    position: relative;
+    box-shadow:  inset -15px 15px 62px -3px #434750;
 }
 .general> .main-wrapper> .message-wrapper{
     margin-left: 50px;
