@@ -1,20 +1,25 @@
-.main-wrapper{
+.general> .main-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color:rgb(52, 52, 56) ;
+    background-color:#2a2c33 ;
+    box-shadow: inset;
 }
-.main-wrapper> .message-wrapper> .code-text >.higlighted-text{
-    color: #fafafa;
+.general> .main-wrapper> .message-wrapper{
+    margin-left: 50px;
 }
-.main-wrapper> .image-side{
+.general> .main-wrapper> .message-wrapper> .message-text> .code-text p{
+    color: gray;
+    font-size: 2em;
+}
+.general> .main-wrapper> .image-side{
     width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: right;
-    margin-right: -645px;
+    margin-right: -230px;
 }
-.main-wrapper> .image-side> .text-image{
+.general> .main-wrapper> .image-side> .text-image{
     justify-content: space-around;
     font-size: 1.5em;
     /* color: #fafafa; */
@@ -24,11 +29,11 @@
     margin-top: 27px;
     width: 100%;
 }
- .main-wrapper> .image-side> .text-image p{
+.general> .main-wrapper> .image-side> .text-image p{
     font-family: 'Lato', sans-serif;
     color:#fafafa;
 } 
-.main-wrapper> .image-side> .image-sample img{
+.general> .main-wrapper> .image-side> .image-sample img{
     width: 75%;
     height: 100%;
 }
