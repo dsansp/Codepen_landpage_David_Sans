@@ -22,12 +22,12 @@
 }
 .general> .bottom-wrapper> .bottom-boxes > .codepen-items a{
    
-    font-family: "Archivo Black", sans-sherif; 
+    font-family: 'Lato', sans-serif;
     text-align: center;
     color: #fafafa;
     text-decoration: none;
     transition: 0.5s;
-  
-
-    
+}
+    .general> .bottom-wrapper> .bottom-boxes > .codepen-items b{
+        font-family: "Archivo Black", sans-sherif; 
 }
